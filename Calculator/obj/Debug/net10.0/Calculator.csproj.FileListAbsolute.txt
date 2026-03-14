@@ -12,3 +12,4 @@
 /Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.pdb
 /Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
 /Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/ref/Calculator.dll
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.sourcelink.json

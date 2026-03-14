@@ -1,11 +1,49 @@
-﻿Console.WriteLine("A math operation: ");
-char opr = Console.ReadLine()[0];
+﻿char opr = '0';
+float first = 0f;
+float second = 0f;
 
-Console.WriteLine("First number: ");
-float first = float.Parse(Console.ReadLine());
+while (true)
+{
+   try
+    {
+        Console.WriteLine("A math operation: ");
+        opr = Console.ReadLine()[0];
+        break;
+    } 
+    catch
+    {
+        Console.WriteLine("Enter a proper math operation symbol");
+    } 
+}
 
-Console.WriteLine("Second number: ");
-float second = float.Parse(Console.ReadLine());
+while (true)
+{
+    try
+    {
+        Console.WriteLine("First number: ");
+        first = float.Parse(Console.ReadLine());
+        break;
+    } 
+    catch
+    {
+        Console.WriteLine("Enter a proper number or decimal");
+    }    
+}
+
+while (true)
+{
+    try
+    {
+        Console.WriteLine("Second number: ");
+        second = float.Parse(Console.ReadLine());
+        break;
+    } 
+    catch
+    {
+        Console.WriteLine("Enter a proper number or decimal");
+    }    
+}
+
 
 float result = 0;
 
