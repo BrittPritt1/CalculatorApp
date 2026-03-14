@@ -1,0 +1,14 @@
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/bin/Debug/net10.0/Calculator
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/bin/Debug/net10.0/Calculator.deps.json
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/bin/Debug/net10.0/Calculator.runtimeconfig.json
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/bin/Debug/net10.0/Calculator.dll
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/bin/Debug/net10.0/Calculator.pdb
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfoInputs.cache
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfo.cs
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.dll
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/refint/Calculator.dll
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.pdb
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
+/Users/brittbreugelmans/Documents/School 25-26/Calculator/Calculator/obj/Debug/net10.0/ref/Calculator.dll
