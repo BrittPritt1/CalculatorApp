@@ -1,6 +1,6 @@
-﻿char opr = '0';
-float first = 0f;
-float second = 0f;
+﻿using System.Globalization;
+
+char opr;
 
 while (true)
 {
@@ -16,7 +16,7 @@ while (true)
     } 
 }
 
-while (true)
+/* while (true)
 {
     try
     {
@@ -42,28 +42,47 @@ while (true)
     {
         Console.WriteLine("Enter a proper number or decimal");
     }    
-}
+} */
 
+float result = 0.0f, n1, n2;
 
-float result = 0;
+//1 read files 1.txt and 2.txt (array of numbers)
+string[] lines1 = File.ReadAllLines("/Users/brittbreugelmans/Downloads/1.txt");
+string[] lines2 = File.ReadAllLines("/Users/brittbreugelmans/Downloads/2.txt");
 
-switch (opr)
+//2 apply operation on numbers of each file + store in new file result.txt
+using(StreamWriter writer = new StreamWriter("/Users/brittbreugelmans/Downloads/result.txt"))
 {
-    case '+' :
-        result = first + second;
-        break;
+    for (int i = 0; i < lines1.Length; i++)
+    {
+        n1 = float.Parse(lines1[i]);
+        Console.WriteLine($"first file: {lines1[i]}");
 
-    case '-' :
-        result = first - second;
-        break;
+        n2 = float.Parse(lines2[i]);
+        Console.WriteLine($"second file: {lines2[i]}");
 
-    case '*' : 
-        result = first * second;
-        break; 
+        switch (opr)
+        {
+            case '+' :
+                result = n1 + n2;
+                Console.WriteLine(result);
+                break;
 
-    case '/': 
-        result = first / second;
-        break;
-}
+            case '-' :
+                result = n1 - n2;
+                break;
 
-Console.WriteLine($"The result of '{first} {opr} {second}' is: {result}");
+            case '*' : 
+                result = n1 * n2;
+                break; 
+
+            case '/': 
+                result = n1 / n2;
+                break;
+        }
+
+        writer.WriteLine(result);
+    }
+} 
+
+Console.WriteLine("Results saved in file.");
